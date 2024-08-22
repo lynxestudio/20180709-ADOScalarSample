@@ -17,6 +17,12 @@ The most commonly steps for using ADO.NET data access classes are:
 <p align="justify">
 The following example, show how to execute a query that determines the average salary from the table employees on the HR schema provided by Oracle Database XE. The example assume that the query does not return a NULL result.
 </p>
+<div><b>fig 1 Running the program</b></div></br>
+<img src="images/scalar1.png"/>
+<div><b>fig 2 Enter the data for connection string.</b></div></br>
+<img src="images/scalar2.png"/>
+<div><b>fig 3 Executing the query</b></div>
+<img src="images/scalar3.png"/>
 <p>
 This program uses the HR samples from Oracle :
 <a href="https://github.com/oracle-samples/db-sample-schemas">Oracle db samples</a>
