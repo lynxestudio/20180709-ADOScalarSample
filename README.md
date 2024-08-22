@@ -1,16 +1,31 @@
 # Oracle Recipe #2: How to execute a query that returns a Scalar result with OracleCommand
 
+<p>
 Microsoft ADO.NET command objects have an ExecuteScalar method, which enables you to execute a query that returns a single result.
-Open a database connection.
-Create and initialize a command object.
-Call the ExecuteScalar method on the command object.
-Convert the return value from ExecuteScalar into an appropriate data type.
-Dispose the command object.
-Close the database connection.
+</p>
+<p align="justify">
+The most commonly steps for using ADO.NET data access classes are:
+<ol>
+<li>Open a database connection.</li>
+<li>Create and initialize a command object.</li>
+<li>Call the ExecuteScalar method on the command object.</li>
+<li>Convert the return value from ExecuteScalar into an appropriate data type.</li>
+<li>Dispose the command object.</li>
+<li>Close the database connection.</li>
+<ol>
+</p>
+<p>
 The following example, show how to execute a query that determines the average salary from the table employees on the HR schema provided by Oracle Database XE. The example assume that the query does not return a NULL result.
-
-Fig 1. OracleCommand ExecuteScalar method code example.
-
-OracleCommand ExecuteScalar method code example
-
-Download example source code.
+</p>
+<p>
+Fig 1. Running the example
+<img src="images/ExecuteScalar1.png"/>
+</p>
+<p>
+Fig 2. Entering the data for the connection string. 
+<img src="images/ExecuteScalar2.png"/>
+</p>
+<p>
+Fig 3. Executing the query and getting the output.
+<img src="images/ExecuteScalar3.png"/>
+</p>
